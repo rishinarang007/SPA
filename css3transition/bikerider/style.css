@@ -1,0 +1,12 @@
+
+.rider {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  transition: transform 3s 1s cubic-bezier(.14,.2,.63,.03);
+}
+
+.rider:hover {
+
+	transform : translateX(1700px);
+}

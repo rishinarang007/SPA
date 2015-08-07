@@ -1,0 +1,202 @@
+.clearfix{
+    
+    display: block;
+    clear: both;
+}
+
+.top{
+    background: #173b42 url(../images/bg.png) bottom center repeat-x;
+    text-align: center;
+    max-height: 750px;
+    
+}
+
+.header-line{
+    border-bottom: 1px solid #516c71;
+    height: 35px;
+}
+
+#logo{
+    margin-left: -65px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+h1, .cta, h4, h3, .author{
+    font-family: sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 3.4em;
+    color:white;
+    margin: 120px 0 40px 0;
+}
+
+.cta{
+    color: #173b42;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 1.8em;
+    clear: both;
+        
+}
+
+#top-cta{
+    background: #00ffe4;
+}
+
+#check{
+    display: block;
+    margin: 50px auto;
+
+}
+
+#laptop, h4{
+    display: block;
+    clear: both;
+    margin: 0 auto;
+}
+
+
+h4{
+    
+    font-size: 1.3em;
+    padding-top: 40px;
+    color: #767575;
+}
+
+#trust{
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+#trust ul{
+    
+    list-style-type: none;
+    position: relative;
+    left: 50%;
+    
+}
+
+#trust ul li{
+    
+    display: inline;
+    float: left;
+    margin: 40px 0 90px 30px;
+    
+}
+
+#first-trust{
+    margin-left: 0;
+}
+
+.row{
+    margin: 90px auto;
+}
+
+.divider-top{
+    border-top: 1px solid red;
+    margin-top: 90px;
+}
+
+.divider-bottom{
+    
+    border-bottom: 1px solid red;
+   
+}
+
+#graph{
+    
+    display: block;
+    margin: 0 auto;
+}
+
+ul.bright-dividers{
+    
+    list-style-type: none;
+}
+
+ul.bright-dividers li{
+    
+    display: inline;
+    float: left;
+    width:20%;
+    height:8px;
+}
+
+ul.bright-dividers li#cyan{
+    
+    background: red;
+}
+ul.bright-dividers li#green{
+    
+    background: green;
+}
+ul.bright-dividers li#purple{
+    
+    background: red;
+}
+ul.bright-dividers li#red{
+    
+    background: green;
+}
+ul.bright-dividers li#blue{
+    
+    background: red;
+}
+
+h3{
+    margin-bottom: 30px;
+}
+
+.feature-icon{
+    display: block;
+    margin: 10px auto;
+    
+}
+
+.feature-title, feature-desc{
+    text-align: center;
+}
+
+.feature-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.center{
+    
+    text-align: center;
+}
+.author{
+    clear: both;
+    display: block;
+}
+
+blockquote{
+        font-size: 2.6em;
+        padding: 0 10%;
+    font-family: serif;
+    font-style: italic;
+    border-left: none;
+    line-height: 1.3em;
+    color: black;
+    
+    
+}
+
+@media screen and (max-width: 40.063em){
+    
+    
+}
+
+@media screen and (max-width: 64.063em){
+    
+    
+}

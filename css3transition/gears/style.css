@@ -1,0 +1,31 @@
+
+#rotate {
+  display: block;
+}
+
+img {
+  position:absolute;
+}
+
+.big_gear {
+  top: 150px;
+  left: 300px;  
+  transition: transform 3s ease-in;
+}
+
+.small_gear {
+  top: 350px;
+  left: 155px;
+  transition: transform 3s ease-in;
+}
+
+
+#rotate:hover > .small_gear {
+
+  transform: rotate(-360deg);
+
+}
+
+#rotate:hover > .big_gear {
+   transform: rotate(360deg);
+}

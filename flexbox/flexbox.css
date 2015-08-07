@@ -1,0 +1,40 @@
+.nav{
+    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    
+}
+
+.main{
+    
+    display: flex;
+    
+}
+
+.nav li{
+    -webkit-flex-grow : 1;
+}
+
+.col{
+    -webkit-flex:1;
+}
+
+.col-c{
+    
+    -webkit-flex:2;
+    order:-1;
+}
+
+.col-b{
+    
+    -webkit-align-self:center;
+}
+
+/*.nav li:last-child{
+    
+    margin-left: auto;
+    
+}*/
